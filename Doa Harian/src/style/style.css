@@ -1,0 +1,8 @@
+.card-doa {
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.card-doa:hover {
+  background-color: rgb(169, 169, 169);
+}
