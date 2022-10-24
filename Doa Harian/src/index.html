@@ -15,12 +15,24 @@
 
   <nav class="navbar navbar-dark bg-dark">
     <div class="container">
-      <span class="navbar-brand mb-0 h1">Doa-Doa Harian</span>
+      <span class="navbar-brand mb-0 h1">Kumpulan Doa-Doa Harian</span>
+      <form class="form-inline my-2 my-lg-0" id="form">
+        <input class="form-control mr-sm-2 input-search" id="search" type="search" placeholder="Mau doa apa?"
+          aria-label="Search">
+        <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Cari</button>
+      </form>
+
+      <div class="list-group card-list d-none">
+        <a href="#" id="nama-kota" class="list-group-item list-group-item-action">A second link item</a>
+        <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+        <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+        <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
+      </div>
     </div>
   </nav>
 
   <div class="container mt-5">
-    <div class="row card-doa">
+    <div class="row d-flex justify-content-center card-doa" id="main">
 
     </div>
   </div>
